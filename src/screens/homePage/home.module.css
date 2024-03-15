@@ -1,0 +1,70 @@
+.heading1 {
+    color: whitesmoke;
+    background-color: orangered;
+    text-align: center;
+}
+
+.btn {
+    color: green !important;
+    font-weight: bold !important;
+}
+
+.btn:hover {
+    color: red !important;
+}
+
+/* MAIN  */
+/* FAQs */
+.faqIconActive {
+    transform: rotate(90deg);
+    animation: faqIconActiveAnimation 0.5s forwards;
+}
+
+.faqIconDeActive {
+    transform: rotate(45deg);
+    animation: faqIconDeActiveAnimation 0.5s forwards;
+}
+
+@keyframes faqIconActiveAnimation {
+    from {
+        transform: rotate(90deg);
+    }
+
+    to {
+        transform: rotate(45deg);
+    }
+}
+
+@keyframes faqIconDeActiveAnimation {
+    from {
+        transform: rotate(45deg);
+    }
+
+    to {
+        transform: rotate(90deg);
+    }
+}
+
+
+/* FOOTER NavLinks */
+.navLink {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 10px 0;
+    transition: 0.2s;
+}
+
+
+.navLink:hover {
+    color: #FFA700;
+}
+
+
+.navLinkIcon {
+    color: #fff
+}
+
+.navLinkIcon:hover {
+    transform: scale(1.2);
+}

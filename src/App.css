@@ -1,0 +1,12 @@
+* {
+  /* border: 2px solid red; */
+  margin: 0;
+  /* padding: 10px; */
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/* body {
+  min-width: 320px;
+  min-height: 100vh;
+} */

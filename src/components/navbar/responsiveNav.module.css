@@ -1,0 +1,70 @@
+.navShow {}
+
+.navHide {}
+
+
+.navLink {
+    color: #fff
+}
+
+.resNavLink {
+    padding: 20px 10px;
+    display: inline-block;
+    /* border-bottom: 1px solid whitesmoke; */
+    transition: 0.3s;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.resNavLink:hover {
+    padding-left: 20px;
+    transform: scale(0.98);
+    color: #FFA700
+}
+
+.resNavNotLink {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+    padding: 1em 0;
+
+}
+
+/* 
+sx={{
+    padding: '20px 10px', borderBottom: '1px solid #fff', transition: '0.3s ease'
+    , "&:hover": { padding: '20px 20px' }
+}} */
+
+
+.navResp {
+    width: 100%;
+    height: 100vh;
+    background: fixed;
+    background-color: #333333;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    z-index: 3;
+    animation-name: navRespRTL;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+    /* position: fixed;
+    top: 0;
+    left: 100%;
+    z-index: 1; */
+}
+
+@keyframes navRespRTL {
+    from {
+        left: 100%;
+    }
+
+    to {
+        left: 0;
+    }
+
+}
